@@ -1,0 +1,45 @@
+{
+  "name": "html5-starter",
+  "version": "0.0.1",
+  "description": "Basic HTML5 starter template 🎈",
+  "author": {
+    "name": "Nicholas Berlette",
+    "email": "nick@berlette.com",
+    "url": "https://nick.berlette.com/"
+  },
+  "license": "MIT",
+  "repository": "github:nberlette/html5-starter",
+  "homepage": "https://n.berlette.com/html5-starter",
+  "bugs": "https://github.com/nberlette/html5-starter/issues",
+  "readme": "https://github.com/nberlette/html5-starter#readme",
+  "keywords": [
+    "html5",
+    "template",
+    "boilerplate",
+    "starter"
+  ],
+  "files": [],
+  "directories": {},
+  "scripts": {
+    "dev": "",
+    "test": "",
+    "serve": "",
+    "start": "",
+    "build": "",
+    "export": ""
+  },
+  "prettier": {
+    "semi": false,
+    "arrowParens": "always",
+    "useTabs": false,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": true,
+    "jsxSingleQuote": false,
+    "htmlWhitespaceSensitivity": "css",
+    "parser": "html"
+  },
+  "devDependencies": {
+    "serve": "~12.0.0"
+  }
+}

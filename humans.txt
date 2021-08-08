@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	Jhon Doe
+	Contact:  [at] 
+	Twitter: @
+	From: 
+
+# SITE
+	Last update: XX/XX/XXXX
+	Language:
+	Doctype: HTML5
+	IDE:
