@@ -1,6 +1,6 @@
 # HTML5 Starter
 
-Basic HTML5 boilerplate to use as a quick starter 🎈
+HTML5 boilerplate template with a live development server included to see your progress while you code.
 
 ## **Getting Started**
 
@@ -24,21 +24,22 @@ cd html5-starter
 
 ```less
  html5-starter/
+ ├─ LICENSE
  ├─ package.json
- └─ public/
+ ├─ README.md
+ └─ src/
     ├─ 404.html
-    ├─ humans.txt
     ├─ index.html
+    ├─ humans.txt
     ├─ robots.txt
     ├─ site.webmanifest
-    ├─ manifest.json
-    │─ favicon.ico
     └─ assets/
-       │─ main.css
-       │─ main.js
+       │─ style.css
+       │─ script.js
        ├─ apple-touch-icon.png
        ├─ android-192x192.png
        ├─ android-512x512.png
+       │─ favicon.ico
        ├─ favicon-16x16.png
        └─ favicon-32x32.png
 ```

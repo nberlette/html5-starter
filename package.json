@@ -1,7 +1,7 @@
 {
-  "name": "html5-starter",
-  "version": "0.0.1",
-  "description": "Basic HTML5 starter template 🎈",
+  "name": "@nberlette/html5-starter",
+  "version": "0.0.3",
+  "description": "HTML5 boilerplate template with SASS support and a live dev server.",
   "author": {
     "name": "Nicholas Berlette",
     "email": "nick@berlette.com",
@@ -19,14 +19,11 @@
     "starter"
   ],
   "files": [],
-  "directories": {},
   "scripts": {
-    "dev": "",
-    "test": "",
-    "serve": "",
-    "start": "",
-    "build": "",
-    "export": ""
+    "dev": "npm run serve",
+    "serve": "serve --single public",
+    "start": "npm run serve",
+    "build": ""
   },
   "prettier": {
     "semi": false,
@@ -40,6 +37,7 @@
     "parser": "html"
   },
   "devDependencies": {
-    "serve": "~12.0.0"
+    "serve": "~12.0.0",
+    "sass": "~1.37.5"
   }
 }
