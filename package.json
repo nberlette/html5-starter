@@ -29,12 +29,9 @@
     "robots.txt"
   ],
   "scripts": {
-    "dev": "",
-    "test": "",
-    "serve": "",
-    "start": "",
-    "build": "",
-    "export": ""
+    "dev": "serve -p 3000 --no-clipboard --no-etag",
+    "test": "echo 'no test script specified' && exit 1",
+    "start": "npm run dev"
   },
   "prettier": {
     "semi": false,
@@ -46,6 +43,6 @@
     "parser": "html"
   },
   "devDependencies": {
-    "serve": "~12.0.0"
+    "serve": "~13.0.0"
   }
 }
