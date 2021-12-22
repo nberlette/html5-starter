@@ -26,7 +26,7 @@ gh repo clone nberlette/html5-starter
 
 ## File Structure
 
-```c
+```
 html5-starter/
 ├── index.html
 ├── 404.html
