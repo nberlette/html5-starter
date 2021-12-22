@@ -2,6 +2,8 @@ image: gitpod/workspace-full
 tasks:
   - init: yarn install
   - command: yarn dev
+    name: "Live Preview"
+    openMode: "tab-before"
 ports:
   - port: 3000
     onOpen: open-preview
@@ -18,3 +20,5 @@ vscode:
   extensions:
     - esbenp.prettier-vscode
     - zignd.html-css-class-completion
+    - eamodio.gitlens
+    - hookyqr.beautify
