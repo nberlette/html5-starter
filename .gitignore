@@ -1,0 +1,16 @@
+node_modules
+**/node_modules/**
+*.log
+*.pem
+*.crt
+.npm
+.pnpm
+.yarn
+.cache
+.env.local
+.env.*.local
+.env
+!.env.sample.local
+!.env.example.local
+.DS_Store
+Thumbs.db
