@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
+#title: "HTML5 Starter"
+#description: ""
+show_downloads: true
+github:
+  zip_url: "https://github.com/nberlette/html5-starter/archive/refs/heads/master.zip"
+  tar_url: "https://github.com/nberlette/html5-starter/archive/refs/heads/master.tar.gz"
+  owner_url: "https://n.berlette.com"
+  repository_url: "https://github.com/nberlette/html5-starter#readme"
