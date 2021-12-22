@@ -1,65 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <meta name="robots" content="index,follow" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="robots" content="index,follow" />
 
-        <title></title>
-        <meta name="title" content="" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="" />
+    <title></title>
 
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta name="apple-mobile-web-app-title" content="" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="theme-color" content="#fafafa" />
+    <!-- Site Manifest -->
+    <link rel="manifest" type="manifest" href="./site.webmanifest" />
 
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@" />
-        <meta name="twitter:creator" content="@" />
-        <meta name="twitter:image" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="/" type="canonical" />
-        <link type="text/plain" rel="author" href="/humans.txt" />
-        
-        <!-- webfont stylesheets go here -->
-        <link rel="stylesheet" href="" />
+    <!-- Standard SEO (Google) -->
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="canonical" href="/" type="canonical" />
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" sizes="16x16 32x32 48x48 72x72 96x96" href="./favicon.ico" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon@192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon@512.png" />
 
-        <!-- main stylesheet -->
-        <link rel="stylesheet" href="/css/main.css" />
-    </head>
-    <body>
-        <div class="container">
-        <!-- content start -->
+    <!-- Apple Icons + App Title -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
 
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nberlette" />
+    <meta name="twitter:creator" content="@nberlette" />
+    <meta name="twitter:image" content="" />
 
-        <!-- content end -->
-        </div>
-        
+    <!-- OpenGraph (Facebook/Meta) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    
+    <link rel="preload" onload="this.rel='stylesheet';this.onload=null;" href="./assets/main.css" />
+    <script src="./assets/main.js" async defer></script>
+  </head>
+  <body>
+    <div class="container">
 
-        <!-- jquery 3.4.1 -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    </div>
 
-        <!-- main javascript functionality -->
-        <script src="/js/main.js"></script>
+    <!-- jQuery 3.4.1 (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script>
-            function gtag(){ (window.dataLayer || []).push(arguments); }
-            gtag("js", new Date());
-            gtag("config", "UA-XXXXXXXX-X");
-        </script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
-    </body>
+    <!-- Google Analytics / Google Tag Manager (Optional) -->
+    <script>
+        function gtag(){ (window.dataLayer || []).push(arguments); }
+        gtag("js", new Date());
+        gtag("config", "UA-XXXXXXXX-X");
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
+
+  </body>
 </html>
