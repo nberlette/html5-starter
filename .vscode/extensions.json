@@ -3,6 +3,7 @@
     "eamodio.gitlens",
     "zignd.html-css-class-completion",
     "esbenp.prettier-vscode",
-    "HookyQR.beautify"
+    "hookyqr.beautify",
+    "ms-vscode.live-server"
   ]
 }

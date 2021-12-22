@@ -9,5 +9,11 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "livePreview.autoRefreshPreview": "On All Changes in Editor",
+  "livePreview.portNumber": 3000,
+  "livePreview.showStatusBarItem": true,
+  "livePreview.tasks.runTaskWithExternalPreview": false,
+  "livePreview.hostIP": "127.0.0.1",
+  "livePreview.openPreviewTarget": "Embedded Preview"
 }
