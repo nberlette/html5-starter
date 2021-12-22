@@ -1,22 +1,20 @@
 tasks:
   - init: yarn install
   - name: "Live Preview"
-    command: |
-      yarn dev
-ports: # See https://www.gitpod.io/docs/config-ports
+    command: yarn dev
+ports:
   - port: 3000
     onOpen: open-preview
     name: "Live Preview"
-    visibility: public
 github:
   prebuilds:
     master: true
-    branches: false
-    pullRequests: false
+    branches: true
+    pullRequests: true
     pullRequestsFromForks: false
     addBadge: true
     addLabel: true
 vscode: 
-  extensions: # vscode extensions to install in our workspace
+  extensions:
     - esbenp.prettier-vscode
     - zignd.html-css-class-completion
