@@ -1,9 +1,11 @@
 image: gitpod/workspace-full
 tasks:
   - init: yarn install
+  - command: yarn dev
 ports:
   - port: 3000
     onOpen: open-preview
+    name: "Live Preview"
 github:
   prebuilds:
     master: true
