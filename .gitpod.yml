@@ -1,4 +1,4 @@
-image: nberlette/gitpod-enhanced:latest
+image: gitpod/workspace-full
 tasks:
   - init: yarn install
   - command: yarn dev
