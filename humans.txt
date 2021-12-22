@@ -2,13 +2,13 @@
 # The humans responsible & technology colophon
 
 # TEAM
-	Jhon Doe
-	Contact:  [at] 
-	Twitter: @
-	From: 
+	Nicholas Berlette
+	Contact: nick [at] berlette.com
+	Twitter: @nberlette
+	From: San Diego, CA
 
 # SITE
-	Last update: XX/XX/XXXX
-	Language:
+	Last update: 12/21/2021
+	Language: HTML5
 	Doctype: HTML5
-	IDE:
+	IDE: Visual Studio Code (Gitpod.io)
