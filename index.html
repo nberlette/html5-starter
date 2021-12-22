@@ -1,16 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html5>
+<html lang="en" manifest="./site.webmanifest">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="robots" content="index,follow" />
-
-    <title></title>
-
-    <!-- Site Manifest -->
+    <title>HTML5 Starter</title>
+    <!-- Site Manifest (site.webmanifest) -->
     <link rel="manifest" type="manifest" href="./site.webmanifest" />
-
     <!-- Standard SEO (Google) -->
     <meta name="title" content="" />
     <meta name="description" content="" />
@@ -19,43 +16,40 @@
     <meta name="theme-color" content="#fafafa" />
     <link rel="canonical" href="/" type="canonical" />
     <link type="text/plain" rel="author" href="/humans.txt" />
-    
     <!-- Favicons -->
     <link rel="shortcut icon" sizes="16x16 32x32 48x48 72x72 96x96" href="./favicon.ico" />
     <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon@192.png" />
     <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon@512.png" />
-
     <!-- Apple Icons + App Title -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@nberlette" />
     <meta name="twitter:creator" content="@nberlette" />
     <meta name="twitter:image" content="" />
-
     <!-- OpenGraph (Facebook/Meta) -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
-    
-    <link rel="preload" onload="this.rel='stylesheet';this.onload=null;" href="./assets/main.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/main.css" />
+    <!-- JavaScript -->
     <script src="./assets/main.js" async defer></script>
+    <!-- TailwindCSS JIT CDN (development only...!) -->
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
   </head>
   <body>
-    <div class="container">
-      <h1>Hey! Welcome to the HTML5 Starter.</h1>
-      <p>
-        Go ahead and start editing this page to see your changes appear as you code.
+
+    <div class="w-4/5 mx-auto my-4">
+      <h1 class="text-4xl bold">Welcome to the HTML5 Starter.</h1>
+      <p class="my-10">
+        Go ahead and start editing <code>index.html</code> and refresh this page.
       </p>
     </div>
-
-    <!-- jQuery 3.4.1 (Optional) -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Google Analytics / Google Tag Manager (Optional) -->
     <script>
