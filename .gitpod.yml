@@ -1,11 +1,9 @@
 image: gitpod/workspace-full
 tasks:
   - init: yarn install
-  - command: yarn dev
 ports:
   - port: 3000
     onOpen: open-preview
-    name: "Live Preview"
 github:
   prebuilds:
     master: true
@@ -20,3 +18,4 @@ vscode:
     - zignd.html-css-class-completion
     - eamodio.gitlens
     - hookyqr.beautify
+    - ms-vscode.live-server
