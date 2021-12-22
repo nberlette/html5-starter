@@ -3,17 +3,44 @@
   "short_name": "",
   "icons": [
     {
-      "src": "android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "./apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "apple-touch-icon",
+      "purpose": "any apple-touch-icon"
     },
     {
-      "src": "android-chrome-512x512.png",
+      "src": "./favicon.ico",
+      "sizes": "16x16 32x32 48x48 96x96",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/favicon@16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/favicon@32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/favicon@192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/favicon@512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
+  "display": "standalone",
   "start_url": "/",
-  "theme_color": "#fafafa",
+  "theme_color": "#223344",
   "background_color": "#fafafa"
 }
