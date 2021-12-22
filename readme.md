@@ -2,13 +2,21 @@
 
 Basic HTML5 boilerplate to use as a quick starter 🎈
 
-### scaffold with [degit](https://npm.im/degit)
+**Now configured for Gitpod.io! Try it out with the button below!**
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nberlette/html5-starter)
+
+---
+
+## Scaffolding Your Next Project
+
+I recommend scaffolding your project with [degit](https://npm.im/degit), unless you are using [Gitpod](https://gitpod.io/#https://github.com/nberlette/html5-starter).
 
 ```sh
-degit nberlette/html5-starter my-project
+npx degit nberlette/html5-starter my-project
 ```
 
-**...or clone with [gh](https://cli.github.com)**
+**...or clone with [GitHub's CLI](https://cli.github.com)**
 
 ```bash
 gh repo clone nberlette/html5-starter
@@ -16,7 +24,9 @@ gh repo clone nberlette/html5-starter
 
 ---  
 
-```jsonc
+## File Structure
+
+```c
 html5-starter/
 ├── index.html
 ├── 404.html
