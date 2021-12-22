@@ -1,9 +1,5 @@
-tasks:
-  - init: yarn
-  
 github:
   prebuilds:
-    master: true
     branches: false
     pullRequests: true
     pullRequestsFromForks: false
