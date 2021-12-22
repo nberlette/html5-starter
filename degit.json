@@ -1,0 +1,6 @@
+[
+    {
+        "action": "remove",
+        "files": ["readme.md", "license", "degit.json"]
+    }
+]
