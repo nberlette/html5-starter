@@ -1,11 +1,11 @@
 {
   "name": "html5-starter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Basic HTML5 starter template 🎈",
   "author": {
     "name": "Nicholas Berlette",
     "email": "nick@berlette.com",
-    "url": "https://nick.berlette.com/"
+    "url": "https://n.berlette.com/"
   },
   "license": "MIT",
   "repository": "github:nberlette/html5-starter",
@@ -18,8 +18,16 @@
     "boilerplate",
     "starter"
   ],
-  "files": [],
-  "directories": {},
+  "files": [
+    "assets",
+    "apple-touch-icon.png",
+    "favicon.ico",
+    "site.webmanifest",
+    "index.html",
+    "404.html",
+    "humans.txt",
+    "robots.txt"
+  ],
   "scripts": {
     "dev": "",
     "test": "",
@@ -34,8 +42,6 @@
     "useTabs": false,
     "tabWidth": 2,
     "trailingComma": "es5",
-    "jsxBracketSameLine": true,
-    "jsxSingleQuote": false,
     "htmlWhitespaceSensitivity": "css",
     "parser": "html"
   },
