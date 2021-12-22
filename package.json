@@ -1,7 +1,7 @@
 {
   "name": "html5-starter",
-  "version": "0.1.0",
-  "description": "Basic HTML5 starter template 🎈",
+  "version": "0.2.0",
+  "description": "HTML5 boilerplate for Gitpod 🎈",
   "author": {
     "name": "Nicholas Berlette",
     "email": "nick@berlette.com",
@@ -29,20 +29,19 @@
     "robots.txt"
   ],
   "scripts": {
-    "dev": "serve -p 3000 --no-clipboard --no-etag",
+    "dev": "sirv --port 3000 --dev",
     "test": "echo 'no test script specified' && exit 1",
     "start": "npm run dev"
   },
   "prettier": {
-    "semi": false,
+    "semi": true,
     "arrowParens": "always",
     "useTabs": false,
     "tabWidth": 2,
     "trailingComma": "es5",
-    "htmlWhitespaceSensitivity": "css",
-    "parser": "html"
+    "htmlWhitespaceSensitivity": "css"
   },
   "devDependencies": {
-    "serve": "~13.0.0"
+    "sirv-cli": "^1.0.14"
   }
 }
