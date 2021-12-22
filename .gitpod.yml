@@ -1,17 +1,11 @@
-image: gitpod/workspace-full
-
+image: nberlette/gitpod-enhanced:latest
 tasks:
-  - init: >
-      yarn install
-
+  - init: yarn install
 github:
   prebuilds:
     branches: false
-    pullRequests: true
-    pullRequestsFromForks: false
     addBadge: true
     addLabel: true
-    
 vscode: 
   extensions:
     - esbenp.prettier-vscode
