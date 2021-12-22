@@ -1,12 +1,11 @@
-tasks: # See https://www.gitpod.io/docs/config-start-tasks
-  - name: "Live Preview" 
-    init: |
-      yarn install
+tasks:
+  - init: yarn install
+  - name: "Live Preview"
     command: |
       yarn dev
 ports: # See https://www.gitpod.io/docs/config-ports
   - port: 3000
-    onOpen: notify
+    onOpen: open-preview
     name: "Live Preview"
     visibility: public
 github:
