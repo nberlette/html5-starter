@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "zignd.html-css-class-completion",
+    "esbenp.prettier-vscode",
+    "HookyQR.beautify"
+  ]
+}
