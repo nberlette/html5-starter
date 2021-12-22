@@ -1,9 +1,6 @@
-image: gitpod/workspace-full
 tasks:
-  - init: yarn install
-ports:
-  - port: 3000
-    onOpen: open-preview
+  - init: yarn
+  
 github:
   prebuilds:
     master: true
@@ -12,6 +9,7 @@ github:
     pullRequestsFromForks: false
     addBadge: true
     addLabel: true
+    
 vscode: 
   extensions:
     - esbenp.prettier-vscode
