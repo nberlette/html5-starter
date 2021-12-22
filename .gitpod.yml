@@ -1,7 +1,7 @@
+image: nberlette/gitpod-enhanced:latest
 tasks:
   - init: yarn install
-  - name: "Live Preview"
-    command: yarn dev
+  - command: yarn dev
 ports:
   - port: 3000
     onOpen: open-preview
@@ -9,7 +9,7 @@ ports:
 github:
   prebuilds:
     master: true
-    branches: true
+    branches: false
     pullRequests: true
     pullRequestsFromForks: false
     addBadge: true
