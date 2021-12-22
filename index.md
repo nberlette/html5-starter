@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+# HTML5 Starter
 
-You can use the [editor on GitHub](https://github.com/nberlette/html5-starter/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Basic HTML5 boilerplate to use as a quick starter 🎈
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Now configured for Gitpod.io! Try it out with the button below!**
 
-### Markdown
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nberlette/html5-starter)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-```markdown
-Syntax highlighted code block
+## Scaffolding Your Next Project
 
-# Header 1
-## Header 2
-### Header 3
+I recommend scaffolding your project with [degit](https://npm.im/degit), unless you are using [Gitpod](https://gitpod.io/#https://github.com/nberlette/html5-starter).
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+npx degit nberlette/html5-starter my-project
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**...or clone with [GitHub's CLI](https://cli.github.com)**
 
-### Jekyll Themes
+```bash
+gh repo clone nberlette/html5-starter
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nberlette/html5-starter/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+---  
 
-### Support or Contact
+## File Structure
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```c
+html5-starter/
+├── index.html
+├── 404.html
+├── humans.txt
+├── robots.txt
+├── favicon.ico 
+├── apple-touch-icon.png
+└── ./assets
+  ├── favicon@16.png
+  ├── favicon@32.png
+  ├── favicon@192.png
+  ├── favicon@512.png
+  ├── site.webmanifest
+  ├── main.css
+  └── main.js
+```
+
+---  
+
+## License
+
+[MIT](https://mit-license.org) © 2021 [Nicholas Berlette](https://github.com/nberlette). All rights reserved.
