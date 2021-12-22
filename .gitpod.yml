@@ -22,3 +22,4 @@ vscode:
     - zignd.html-css-class-completion
     - eamodio.gitlens
     - hookyqr.beautify
+    - ms-vscode.live-server
